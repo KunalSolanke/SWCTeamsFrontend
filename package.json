@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@carbon/ibm-cloud-cognitive": "^0.50.10",
+    "@carbon/ibmdotcom-react": "^1.20.0",
     "@carbon/icons-react": "^10.34.0",
     "@sentry/react": "^6.5.1",
     "@sentry/tracing": "^6.5.1",

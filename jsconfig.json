@@ -2,37 +2,12 @@
     "compilerOptions": {
         "target": "esnext",
         "module": "commonjs",
-        "lib": [
-            "es2017"
-        ],
         "jsx": "react",
-        "noEmit": true,
-        "isolatedModules": true,
-        "moduleResolution": "node",
-        "baseUrl": ".",
-        "paths": {
-            "*": [
-                "*",
-                "src/*"
-            ],
-            "components": [
-                "src/components/*"
-            ],
-            "layouts": [
-                "src/layouts/*"
-            ],
-            "icons": [
-                "src/assets/icons/*"
-            ],
-            "images": [
-                "src/assets/images/*"
-            ]
-        },
+        "baseUrl": "./src",
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "skipLibCheck": false
     },
+    "include": ["src","src/**/*"],
     "exclude": [
-        "node_modules"
+        "node_modules","build"
     ]
 }
